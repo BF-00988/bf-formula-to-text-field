@@ -1,0 +1,23 @@
+{
+  "name": "bf-formula-to-text-field",
+  "version": "1.0.0",
+  "description": "飞书多维表格字段捷径 - BF公式转文本（模板+批量引用字段合并，替代飞书公式可手动编辑）",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "block-basekit-cli start:field",
+    "build": "block-basekit-cli build:field",
+    "pack": "block-basekit-cli build:field && block-basekit-cli pack:field",
+    "dev": "block-basekit-cli dev:field"
+  },
+  "author": "ULBF-00988",
+  "license": "MIT",
+  "dependencies": {
+    "@lark-opdev/block-basekit-server-api": "^1.0.6"
+  },
+  "devDependencies": {
+    "@lark-opdev/block-basekit-cli": "^1.0.5",
+    "@lark-opdev/cli": "^3.3.3",
+    "adm-zip": "^0.5.17",
+    "typescript": "^5.0.0"
+  }
+}
